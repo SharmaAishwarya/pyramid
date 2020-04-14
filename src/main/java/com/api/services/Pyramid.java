@@ -6,7 +6,10 @@ import org.springframework.stereotype.Service;
 public class Pyramid {
 	/**
 	 * 
-	 * @param input it is a string coming from 
+	 * @param input it is a string coming from the controller.
+	 * 		  This method will return true or false based on whether the string we chose
+	 * 		  is a pyramid string or not.
+	 * 		  EG: banana '1' b '2' n '3' a
 	 * @return
 	 */
 	public boolean isPyramidSequence(String input) {
